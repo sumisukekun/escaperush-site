@@ -1,0 +1,13 @@
+:root{--bg:#fff8ec;--ink:#3a2346;--sub:#6b5a78;--acc:#ff7aa8;--card:#ffffff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.75}
+main{max-width:760px;margin:0 auto;padding:28px 18px 60px}
+h1{font-size:1.7rem;margin:0 0 4px}
+h2{font-size:1.15rem;margin:28px 0 6px;border-left:6px solid var(--acc);padding-left:10px}
+p,li{font-size:.98rem}
+.sub{color:var(--sub);font-size:.9rem}
+.card{background:var(--card);border-radius:16px;padding:18px 20px;margin:18px 0;box-shadow:0 2px 0 rgba(58,35,70,.12)}
+.lang{display:flex;gap:10px;margin:10px 0 18px}
+.lang a{color:var(--ink);background:#ffe066;border-radius:999px;padding:4px 14px;text-decoration:none;font-weight:700}
+a{color:#6b4bd1}
+footer{margin-top:40px;color:var(--sub);font-size:.85rem}
